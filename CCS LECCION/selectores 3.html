@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*hijo nuietos etc*/
+    /*div p{
+        background-color: magenta;
+    }*/
+    /* hijos directos*/
+    /*div > p {
+        background-color: yellow;
+    }*/
+    /*hermanos*/
+    div + p {
+        background-color: blue;
+    }
+
+</style>
+<body>
+<div>
+    <p>Parrafo 1 dentro del div</p>
+    <p>Parrafo 2 dentro del div</p>
+    <section>
+        <!--not child but Descendant-->
+        <p>Parrafo 3 en el div (pero dentro de esta seccion no es hijo directo).</p>
+    </section>
+    <p>Parrafo 4 dentro del div</p>
+</div>
+<p>Parrafo 5 duera del div pero inmediato al div</p>
+<p>Parrafo 6 fuera del div</p>
+
+</body>
+</html>
